@@ -22,4 +22,4 @@ To use the Language Translator JavaScript library, you have two options:
    You can download the `translate.js` file from [GitHub]([https://github.com/yourusername/your-repo/blob/main/translate.js](https://rabby-shek.github.io/translation/translation.js)) and host it on your web server. Then, include it in your HTML using the `<script>` tag.
 
    ```html
-   <script src="https://rabby-shek.github.io/translation/translation.js)"></script>
+   <script src="https://rabby-shek.github.io/translation/translation.js"></script>
