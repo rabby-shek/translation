@@ -19,7 +19,7 @@ To use the Language Translator JavaScript library, you have two options:
 
 1. **Download and Host Locally:**
 
-   You can download the `translate.js` file from [GitHub](https://github.com/yourusername/your-repo/blob/main/translate.js) and host it on your web server. Then, include it in your HTML using the `<script>` tag.
+   You can download the `translate.js` file from [GitHub]([https://github.com/yourusername/your-repo/blob/main/translate.js](https://rabby-shek.github.io/translation/translation.js)) and host it on your web server. Then, include it in your HTML using the `<script>` tag.
 
    ```html
    <script src="path/to/translate.js"></script>
