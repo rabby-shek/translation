@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 element.textContent = translation;
             } else {
                 // Display a warning if attributes are missing
-                console.warn(`Warning: Element with data-translate="${translationKey}" is missing required attributes.`);
+                alert(`Warning: Element with data-translate="${translationKey}" is missing required attributes.`);
             }
         });
 
