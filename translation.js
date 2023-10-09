@@ -10,8 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
             const translationKey = element.getAttribute("data-translate");
             const translation = isEnglish ? element.getAttribute("data-english") : element.getAttribute("data-bengali");
 
-            if (translation) {
+            if (translationKey && translation) {
                 element.textContent = translation;
+            } else {
+                // Display a warning if attributes are missing
+                console.warn(`Warning: Element with data-translate="${translationKey}" is missing required attributes.`);
             }
         });
 
