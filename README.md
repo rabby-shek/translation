@@ -18,8 +18,12 @@ The Language Translator JavaScript library is a lightweight tool for adding lang
 To use the Language Translator JavaScript library, you have two options:
 
 1. **Download and Host Locally:**
-
-   You can download the `translate.js` file from [GitHub]([https://github.com/yourusername/your-repo/blob/main/translate.js](https://rabby-shek.github.io/translation/translation.js)) and host it on your web server. Then, include it in your HTML using the `<script>` tag.
-
-   ```html
+   connect this link to your project file
    <script src="https://rabby-shek.github.io/translation/translation.js"></script>
+
+   ## Usage
+
+   pass 3  attributes to the html starting tag Example : data-translate="value" data-english="your english content" data-bengali="your translation to bangla"
+
+   ## Toggling Languages
+   use "toggle-language" id to any button for controlling the language toggling system 
